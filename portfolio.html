@@ -20,34 +20,45 @@
   <body>
     <!-- Шапка сайту -->
     <header class="page-header portfolio">
-      <div class="header-container">
+      <div class="container header">
         <nav class="nav-container">
           <!-- Посилання за текстом на головну сторінку -->
-          <a href="./index.html" class="logo">Web<span class="accent">Studio</span></a
+
+          <a href="./index.html" class="logo"
+            >Web<span class="accent">Studio</span></a
           >
+
           <!-- Навігація сайтом -->
+
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Студія</a></li>
-            <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+            <li class="item">
+              <a href="./index.html" class="link current">Студія</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфоліо</a>
+            </li>
             <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
-          <!-- Посилання на контакти -->
-          <ul class="auth-nav list">
+        <!-- Посилання на контакти -->
+
+        <ul class="auth-nav list">
+          <li class="item">
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
 
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link" >info@devstudio.com</a>
-          </li>
-
-          <li class="item"><a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
-    </div>
+      </div>
     </header>
     <main>
       <!-- Портфоліо -->
-      <section class="filter-portfolio">
-        <div class="container-porfolio">
+      <section class="section portfolio">
+        <div class="container">
         <h1 class="visually-hidden">портфоліо</h1>
         <ul class="filter-list list">
           <li class="item">
@@ -67,7 +78,7 @@
           </li>
         </ul>
 
-        <h2 class="visually-hidden">проекти</h2>
+        
         <ul class="project-list list">
           <li class="item">
             <a href="#" class="project-link">
@@ -77,9 +88,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">Технокряк</h3>
-              <p class="text">Веб-сайт</p>
+              <div class="item-position">
+                <h3 class="title">Технокряк</h3>
+                <p class="text">Веб-сайт</p>
+              </div>
             </a>
+            
           </li>
 
           <li class="item">
@@ -90,10 +104,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">
+              <div class="item-position">
+                <h3 class="title">
                 Постер <span lang="en">New Orlean vs Golden Star</span>
-              </h3>
-              <p class="text">Дизайн</p>
+                </h3>
+                <p class="text">Дизайн</p>
+              </div>
             </a>
           </li>
 
@@ -106,9 +122,11 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">Ресторан <span lang="en">Seafood</span></h3>
-              <p class="text">Додаток</p>
+              <div class="item-position">
+                <h3 class="title">Ресторан <span lang="en">Seafood</span></h3>
+                <p class="text">Додаток</p>
             </a>
+              </div>
           </li>
 
           <li class="item">
@@ -119,8 +137,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">Проєкт <span lang="en">Prime</span></h3>
-              <p class="text">Маркетинг</p>
+              <div class="item-position">
+                <h3 class="title">Проєкт <span lang="en">Prime</span></h3>
+                <p class="text">Маркетинг</p>
+              </div>
             </a>
           </li>
 
@@ -132,8 +152,10 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">Проєкт <span lang="en">Boxes</span></h3>
-              <p class="text">Додаток</p>
+              <div class="item-position">
+                <h3 class="title">Проєкт <span lang="en">Boxes</span></h3>
+                <p class="text">Додаток</p>
+              </div>
             </a>
           </li>
 
@@ -146,10 +168,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">
+              <div class="item-position">
+                <h3 class="title">
                 <span lang="en">Inspiration has no Borders</span>
-              </h3>
-              <p class="text">Веб-сайт</p>
+                </h3>
+                <p class="text">Веб-сайт</p>
+              </div>
             </a>
           </li>
 
@@ -162,10 +186,12 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">
+              <div class="item-position">
+                <h3 class="title">
                 Видання <span lang="en">Limited Edition</span>
-              </h3>
-              <p class="text">Дизайн</p>
+                </h3>
+                <p class="text">Дизайн</p>
+              </div> 
             </a>
           </li>
 
@@ -178,9 +204,11 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title">Проєкт LAB</h3>
-              <p class="text">Маркетинг</p>
-            </a>
+              <div class="item-position">
+                <h3 class="title">Проєкт LAB</h3>
+                <p class="text">Маркетинг</p>
+              </div>
+            </a>        
           </li>
 
           <li class="item">
@@ -192,45 +220,51 @@
                 width="370"
                 height="294"
               />
-              <h3 class="title"><span lang="en">Growing Business</span></h3>
-              <p class="text">Додаток</p>
+              <div class="item-position">
+                <h3 class="title"><span lang="en">Growing Business</span></h3>
+                <p class="text">Додаток</p>
+              </div>
             </a>
           </li>
         </ul>
       </section>
     </div>
     </main>
-    <footer class="basement">
-      <div class="footer-container">
-      <!-- Посилання за текстом на головну сторінку -->
-      <a href="./index.html" class="logo"
-        >Web<span class="accent-white">Studio</span></a
-      >
-      <!-- Адреса компанії -->
-      <address>
-        <ul class="address-list list">
-          <li>
-            <a
-              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              class="basement-link"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@devstudio.com" class="contact-link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a href="tel:+380961111111" class="contact-link"
-              >+38 096 111 11 11
-            </a>
-          </li>
-        </ul>
-      </address>
-    </div>
+    <footer class="section basement">
+      <div class="container">
+      <!-- <div class="footer-container"> -->
+        <!-- Посилання за текстом на головну сторінку -->
+        <a href="./index.html" class="logo logo-footer"
+          >Web<span class="accent-white">Studio</span>
+        </a>
+        <!-- Адреса компанії -->
+        <address class="adress-box">
+          <ul class="address-list list">
+            <li>
+              <a
+                href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                class="basement-link"
+              >
+                м. Київ, пр-т Лесі Українки, 26
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:info@devstudio.com" class="contact-link"
+                >info@devstudio.com</a
+              >
+            </li>
+
+            <li>
+              <a href="tel:+380961111111" class="contact-link"
+                >+38 096 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
